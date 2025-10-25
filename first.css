@@ -261,7 +261,20 @@ cursor: pointer;
  
 }
 
+
+
+.book-call:hover {
+  transition: 0.3s ease; 
+  opacity: .8
    
+}
+   
+
+.contact-button:hover:hover{
+  transition:  0.3s ease; 
+  opacity: .8
+
+}
    
   
    
