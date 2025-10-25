@@ -209,14 +209,16 @@ gap: 10px;
 
 
 
+
 .buttons{
-      display: flex;
-    justify-content: center;
+    display:flex;
+      align-items: center;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 24px;
-
+    
 }
+
+
 
 .contact-button{
 
@@ -225,17 +227,41 @@ gap: 10px;
     background-color: #3AA70B;
     display: flex;
     justify-content: center;
-    gap: 8px;
-    position: relative;
+  cursor: pointer;
+   gap:10px;
     font-size: 16px;
     font-weight:600;
     line-height: 22.4px;
     letter-spacing: -0.32px;
     height:48px;
-    width: 177px;
-    padding: 13px 32px;
+    width: 176px;
+    padding: 6px;
     border-radius: 8px;
-    border-radius:  8px;
+    border: none;
+   
 }
 
 
+.book-call{
+display: flex;
+justify-content: center;
+gap: 8px;
+padding: 13px 32px;
+font-size: 16px;
+line-height:22.4px;
+font-weight: 600;
+letter-spacing:-0.32px;
+background-color: #EFEFEF;
+color:#000000;
+width: 172px;
+height: 48px;
+border-radius: 8px;
+text-decoration: none;
+cursor: pointer;
+ 
+}
+
+   
+   
+  
+   
