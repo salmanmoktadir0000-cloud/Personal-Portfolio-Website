@@ -263,6 +263,8 @@ cursor: pointer;
 
 
 
+
+
 .book-call:hover {
   transition: 0.3s ease; 
   opacity: .8
@@ -275,6 +277,148 @@ cursor: pointer;
   opacity: .8
 
 }
+
+
+
+
+
+
+
+
+/*....... current-projects section............ */
+
+
+.current-projects {
+  padding: 2rem 1rem;
+    max-width: 680px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin: 0px auto;
+    
+}
+
+
+.project-title {
+  color: #3AA70B;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  font-size:12px;
+  line-height: 16.8px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+ margin-top: 14px;
+}
+
+
+
+
+
+
+.projects {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+
+.card {
+  position: relative;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  min-height: 288px;
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction:column;
+}
+
+
+a {
    
-  
-   
+    transition: color .3s ease;
+    cursor: pointer;
+    display: inline;}
+
+
+
+
+
+
+
+.card-media {
+  position: absolute;
+  filter: brightness(0.6);
+  background-size: cover;
+  content: "";
+  inset: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -5;
+
+
+}
+
+
+.card:nth-child(1) .card-media {
+  background-image: url("./Images/1-2.webp");
+}
+.card:nth-child(2) .card-media {
+  background-image: url("./Images/2-1.webp");
+}
+.card:nth-child(3) .card-media {
+  background-image: url("./Images/Bald\ Beard\ Glasses\ Style.jpg");
+}
+
+
+.card-overlay {
+  position: relative; 
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+ 
+}
+
+
+.project-card-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.project-card-link {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  opacity: .95;
+  font-size: 0.9rem;
+}
+.project-card-link-text { font-size: 0.85rem; }
+.project-card-link-icon { font-size: 0.9rem; }
+
+
+.project-card-description {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+
+.card:hover .card-media { transform: scale(1.02); transition: transform .45s ease; }
+
+
+
+.projects:hover .project-card-link-text {
+  text-decoration: underline;
+     
+ 
+}
+
+
