@@ -603,15 +603,19 @@ z-index: 10;
     gap: 8px;
     border-radius:8px;
     background-color: #efefef;
-     
     font-size: 16px;
     font-weight: 600;
-    
-line-height:22.4px;
+    line-height:22.4px;
     letter-spacing:-.32px;
     width: fit-content;
     padding: 13px 30px;
     position: relative;
     color: #000000;
+     transition: opacity .3s ease, color .3s ease;
+}
+
+.btn:hover{
+  opacity:.8;
+
 }
  
