@@ -196,13 +196,12 @@ gap: 10px;
 
 }
 .social-link {
-  fill: grey;
-  
+  color: grey;
   transition: fill 0.3s ease, transform 0.2s ease;
 }
 
 .social-link:hover {
-  fill:black;
+  color:#000000;
   transform: scale(1.1);
 }
 
