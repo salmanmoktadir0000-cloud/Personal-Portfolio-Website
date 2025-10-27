@@ -310,7 +310,8 @@ cursor: pointer;
   height: 17px;
   display: flex;
   align-items: center;
-  transition: color 0.3s;
+  transition: color .3s 
+ease;
  margin-top: 14px;
 }
 
@@ -415,8 +416,191 @@ a {
 }
 /*.......End  current-projects section............ */
 
+section{
+  max-width: 680px;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.section-title-link{
+    color:#3AA70B;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    transition: color .3s 
+ease;
+}
+
+.section-title-text {
+    line-height: 1;
+}
+
+.post-section-wrapper{
+    padding: 24px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: border-color .3s ease;
+}
+.post-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
+.post-card-content{
+    display: flex;
+    flex-direction: column;
+     gap: 4px;
+  }
+
+  .post-card-date{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: -0.24px;
+    color: #606060;
+    transition: color .3s ease;
+  }
+
+  .post-card-heading{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    height: fit-content;
+    color:#000000 ;
+  }
+.post-card-title-link{
+    color:#000000 ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height:25.2ppx;
+    letter-spacing:-.36px;
+    display: inline;
+    padding-bottom: 3px;
+  }
+
+.post-card-tag{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
 
 
+.post-tag-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  color:#606060 ;
+  padding: 6px 12px;
+  background-color:#efefef;
+  font-size: 12px;
+  line-height: 16.8px;
+  font-weight: 500;
+  letter-spacing: -0.24px;
+}
 
+.post-card-link{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  height: 32px;
+  padding-left: 40px;
+  padding-right: 8px;
+    
+}
+
+.post-card-link-text{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -.28px;
+    color: #606060;
+    line-height: 1;
+
+}
+
+
+.post-card-link-icons{
+  width: 16px;
+  height: 11px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+
+
+.post-card-link-icons svg:first-of-type{
+   position: absolute;
+   left: 0px;
+   color: #606060;
+}
+
+.post-card-link-icons svg:last-of-type {
+position: absolute;
+left: -18px;
+color: #606060;}
+
+
+.post-card-link-icons svg
+ {
+  flex-shrink: 0;
+  transition: left .3s 
+ease;
+color: black;
+ } 
+
+
+ .post-tag-icons-wrapper{
+    display: flex;
+    align-items: center;
+     gap: 4px;
+ 
+ }
+
+
+.post-tag-icon {
+width: 24px;
+height: 24px;
+border: 1px solid #cfeac4;
+border-radius: 50%;
+position: relative;
+z-index: 10;
+}
+
+.post-tag-icon svg{
+  margin: 6px ;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border-radius:8px;
+    background-color: #efefef;
+     
+    font-size: 16px;
+    font-weight: 600;
+    
+line-height:22.4px;
+    letter-spacing:-.32px;
+    width: fit-content;
+    padding: 13px 32px;
+    position: relative;
+    color: #000000;
+}
