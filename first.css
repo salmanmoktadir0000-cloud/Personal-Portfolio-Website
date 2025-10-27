@@ -197,6 +197,7 @@ gap: 10px;
 }
 .social-link {
   fill: grey;
+  
   transition: fill 0.3s ease, transform 0.2s ease;
 }
 
@@ -204,6 +205,7 @@ gap: 10px;
   fill:black;
   transform: scale(1.1);
 }
+
 
 /* ...........social link .................*/
 
@@ -456,7 +458,16 @@ ease;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+
 }
+
+
+.post-card+.post-card{
+   padding-top: 16px;
+    border-top: 1px solid #e5e5e5;
+}
+
 
 
 .post-card-content{
