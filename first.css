@@ -1046,3 +1046,180 @@ ease;
 .footer-copyright-link:hover{
   color: #000000;
 }
+
+.recommendations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    gap: 16px;
+}
+
+
+.recommendation-card{
+  
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    transition: border-color .3s ease;
+    max-width: 100%;
+    width: 100%;
+}
+
+.recommendation-card:hover{
+  opacity: 0.8;
+}
+
+
+.recommendation-card-link{
+    padding: 24px;
+    display: flex;
+    gap: 16px;
+    transition: opacity .3s ease;
+}
+
+
+.recommendation-card-svg{
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.recommendation-card-svg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.recommendation-card-meta{
+  color: #000000;
+}
+
+.recommendation-card__title {
+    font-size: 18px;
+    font-weight:500;
+    line-height: 25.2px;
+    letter-spacing: -0.36px;
+}
+
+.recommendation-card-description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: var(--text-S-letter-spacing);
+    color: #606060;
+    transition: color .3s ease;
+}
+
+
+.experience-section-tittlebar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.experience{
+  display:flex ;
+  flex-direction: column;
+  gap: 16px;
+  padding:24px ;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.experience-card-date::before{
+  content: "";
+  background: url(./Images/date-icon.png);
+    display: block;
+    width: 16px;
+    height: 22px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.experience-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.experience-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.experience-card-title {
+    font-size: 18px;
+    font-weight:500;
+    line-height: 19.2px;
+    letter-spacing: -0.36px ;
+}
+
+.experience-card-link{
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.28px;
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-items: center;
+    gap: 6px;
+
+}
+
+
+.experience-card-link-text {
+    color: #3AA70B;
+    display: inline;
+    padding-bottom: 2px;
+}
+
+.experience-card-link-icons {
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-card-description {
+    font-size:14px;
+    font-weight: 500;
+    line-height:19.6px;
+    letter-spacing: -0.28px;
+    margin-top: auto;
+    padding-top: 8px;
+    color: #606060;
+}
+
+
+
+.experience-card-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #e5e5e5;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing:-0.28px;
+    padding: 0 12px;
+    height: 29px;
+    flex-shrink: 0;
+    transition: border-color .3s 
+ease;
+}
