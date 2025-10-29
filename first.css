@@ -419,15 +419,17 @@ a {
   transform: scale(1.02); transition: transform .45s ease;
  }
 
- .card:hover .project-card-link-text1 {
+ #card1:hover .project-card-link-text1 {
   text-decoration: underline;
  }
 
-
-
-.projects:hover .project-card-link-text1 {
+ #card2:hover .project-card-link-text2 {
   text-decoration: underline;
-}
+ }
+
+ #card3:hover .project-card-link-text3 {
+  text-decoration: underline;
+ }
 /*.......End  current-projects section............ */
 
 section{
@@ -1318,8 +1320,8 @@ padding-bottom: 2px;
 
 
 .clients-feedback-card-image {
-    width: 64px;
-    height: 64px;
+    width: 44px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
