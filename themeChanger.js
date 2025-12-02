@@ -90,7 +90,7 @@ document.getElementById("contactBtn").addEventListener("click", function(e) {
     });
 });
 
-// ajaira
+// scroll
 
 
 

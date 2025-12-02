@@ -818,7 +818,7 @@ color: var(--black-color)
   padding: 13px 30px;
   position: relative;
   color: var(--black-color);
-
+  cursor: pointer;
   transition: opacity .3s ease, color .3s ease;
 }
 
@@ -1552,11 +1552,11 @@ ease;
 }
 
 .experience-card-link:hover svg:first-of-type {
-  bottom: 12px;  /* উপরে উঠবে */
-  left: 12px;    /* ডান দিকে চলে যাবে */
+  bottom: 12px; 
+  left: 12px;    
 }
 .experience-card-link:hover svg:last-of-type {
-  bottom: 0px;   /* মূল অবস্থানে আসবে */
+  bottom: 0px; 
   left: 0px;
 }
 
